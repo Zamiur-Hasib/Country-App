@@ -1,0 +1,71 @@
+.article-container {
+    width: 325px;
+    background-color: #34495e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.6rem;
+    transition: all 0.3s;
+  }
+  .article-container:hover {
+    transform: scale(1.05);
+  }
+  .flag-div{
+    background-color: #011b3a;
+    width: 100%;
+    margin: auto;
+    box-shadow: 2px 3px 5px white;
+    border-radius: 5px;
+    padding: 5px 0;
+  }
+
+  .flag {
+    width: 10rem;
+    height: 7rem;
+
+  }
+
+  .info-div{
+    background-color: #011b3a;
+    margin: 10px auto;
+    box-shadow: 2px 3px 5px rgb(255, 255, 255);
+    width: 100%;
+    padding: 5px 0;
+    display: grid;
+    border-radius: 5px;
+
+  }
+  
+  @media screen and (min-width: 768px) {
+    .info-div {
+      grid-template-columns: auto;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .info-div {
+      grid-template-columns: auto auto;
+    }
+  }
+
+  .informations{
+    padding: 5px;
+  }
+
+  .btn {
+    width: 100%;
+    border: none;
+    border-radius: 0.6rem;
+    margin: 5px auto;
+    padding: 10px;
+    cursor: pointer;
+    background-color: orange;
+    transition: all 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: red;
+    color: white;
+  }

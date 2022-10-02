@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    margin: 0 10px;
+    text-align: center;
+    position:static;
+    padding: 10px;
+    background-color: orange;
+}
+.heading h1{
+    padding: 10px 0px;
+    margin-bottom: 5px;
+    font-size: 3rem;
+}
+.body{
+    margin: 0 10px;
+    background-color: blanchedalmond;
+    text-align: center;
+}

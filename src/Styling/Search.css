@@ -1,0 +1,12 @@
+.search{
+    text-align: center;
+}
+input{
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+input:hover{
+    background-color: bisque;
+}
